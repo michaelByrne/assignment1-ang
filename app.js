@@ -23,7 +23,7 @@
             if($scope.count <= 3){
                 $scope.message = "enjoy!";
             }
-            if ($scope.count == 0){
+            else if ($scope.count == 0){
                 $scope.message = "enter data first!";
             }
             else{
