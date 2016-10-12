@@ -20,7 +20,7 @@
         };
         $scope.checkCount = function() {
             console.log($scope.count);
-            if ($scope.count == 0){
+            if ($scope.count < 0){
                 $scope.message = "enter data first!";
             }
             else if($scope.count <= 3){
