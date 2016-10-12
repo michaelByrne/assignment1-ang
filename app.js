@@ -19,6 +19,7 @@
             $scope.count = listArr.length;
         };
         $scope.checkCount = function() {
+            console.log($scope.count);
             if($scope.count <= 3){
                 $scope.message = "enjoy!";
             }
