@@ -24,6 +24,7 @@
             }
             if ($scope.count == 0){
                 $scope.message = "enter data first!";
+            }
             else{
                 $scope.message = "too much!";
             }
